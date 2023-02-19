@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { GraphQLList, GraphQLString } from 'graphql'
-import userType from '../schemas/userType.js'
+import userType from '../../schemas/userType.js'
 
 const dataUrl = 'http://localhost:1234'
 const args = {
@@ -13,7 +13,8 @@ const resolve = async (_, { search }) => {
   const { data } = await axios.get(`${dataUrl}/users`)
   if (search)
     return data.filter(
-      ({ name, email }) => name.includes(search) || email.includes(search)
+      ({ name, email }) =>
+        String(name).includes(search) || String(email).includes(search)
     )
   return data
 }
