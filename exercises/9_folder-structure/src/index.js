@@ -1,24 +1,11 @@
 import express from 'express'
-import { GraphQLObjectType, GraphQLSchema } from 'graphql'
+import { GraphQLSchema } from 'graphql'
 import { graphqlHTTP } from 'express-graphql'
-import users from './resolvers/users.js'
-import user from './resolvers/user.js'
+import query from './resolvers/query.js'
 
 const port = process.env.PORT || 5678
 const server = express()
-
-const queryType = new GraphQLObjectType({
-  name: 'Query',
-  description: 'The root of query type',
-  fields: {
-    user,
-    users,
-  },
-})
-
-const schema = new GraphQLSchema({
-  query: queryType,
-})
+const schema = new GraphQLSchema({ query })
 
 server.use(
   '/graphql',
