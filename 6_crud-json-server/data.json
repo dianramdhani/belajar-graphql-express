@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Dian",
+      "email": "dian@mail.com",
+      "address": "123 Main Street"
+    },
+    {
+      "id": "2",
+      "name": "Fauzan",
+      "email": "fauzan@mail.com",
+      "address": "456 Elm Street"
+    },
+    {
+      "id": "3",
+      "name": "Rizki",
+      "email": "rizki@mail.com",
+      "address": "789 Oak Street"
+    },
+    {
+      "id": "4",
+      "name": "Andi",
+      "email": "andi@mail.com",
+      "address": "321 Maple Street"
+    },
+    {
+      "id": "5",
+      "name": "Fitri",
+      "email": "fitri@mail.com",
+      "address": "654 Pine Street"
+    },
+    {
+      "id": "6",
+      "name": "Rani",
+      "email": "rani@mail.com",
+      "address": "987 Walnut Street"
+    },
+    {
+      "id": "7",
+      "name": "Budi",
+      "email": "budi@mail.com",
+      "address": "1234 Cedar Street"
+    },
+    {
+      "id": "8",
+      "name": "Sari",
+      "email": "sari@mail.com",
+      "address": "5678 Birch Street"
+    },
+    {
+      "id": "9",
+      "name": "Yanto",
+      "email": "yanto@mail.com",
+      "address": "9101 Oak Street"
+    },
+    {
+      "id": "10",
+      "name": "Winda",
+      "email": "winda@mail.com",
+      "address": "1122 Pine Street"
+    },
+    {
+      "id": "11",
+      "name": "Rina",
+      "email": "rina@mail.com",
+      "address": "3344 Maple Street"
+    },
+    {
+      "id": "12",
+      "name": "Indra",
+      "email": "indra@mail.com",
+      "address": "5566 Cedar Street"
+    },
+    {
+      "id": "13",
+      "name": "Nina",
+      "email": "nina@mail.com",
+      "address": "7788 Walnut Street"
+    },
+    {
+      "id": "14",
+      "name": "Joko",
+      "email": "joko@mail.com",
+      "address": "9900 Birch Street"
+    },
+    {
+      "id": "15",
+      "name": "Ika",
+      "email": "ika@mail.com",
+      "address": "4321 Main Street"
+    },
+    {
+      "id": "16",
+      "name": "Riska",
+      "email": "riska@mail.com",
+      "address": "6543 Elm Street"
+    },
+    {
+      "id": "17",
+      "name": "Bambang",
+      "email": "bambang@mail.com",
+      "address": "8765 Oak Street"
+    },
+    {
+      "id": "18",
+      "name": "Tia",
+      "email": "tia@mail.com",
+      "address": "12345 Maple Street"
+    }
+  ]
+}
